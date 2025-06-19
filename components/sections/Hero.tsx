@@ -14,7 +14,7 @@ export default function Hero() {
         <div className={cn("flex flex-1 flex-col lg:flex-row justify-between items-center", isRTL && "lg:flex-row-reverse")}>
           {/* Content */}
           <div className={cn("space-y-8", isRTL ? "lg:col-start-1 text-right" : "text-left")}>
-            <div className="space-y-4">
+            <div className="space-y-4 relative z-[60]">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 {isRTL ? (
                   <>

@@ -18,7 +18,7 @@ export default function Home() {
         <LanguageProvider>
           <div className="relative">
             <Header />
-            <div className="absolute top-0 left-0 z-50"
+            <div className="hidden lg:block absolute top-0 left-0 z-50"
             >
               <img
 
@@ -27,7 +27,7 @@ export default function Home() {
                 className="object-cover w-full h-auto"
               />
             </div>
-            <div className="absolute top-44 right-1 z-30"
+            <div className="hidden lg:block absolute top-44 right-1 z-30"
             >
               <img
 
@@ -43,7 +43,7 @@ export default function Home() {
               <div className="shape-blob-yellow-container mix-blend-multiply filter rounded-full blur-[100px]">
                 <div role="presentation" className={cn("shape-blob-yellow")} />
               </div>
-              <div className="shape-blob-green-container mix-blend-multiply filter rounded-full blur-[120px] divide-opacity-50">
+              <div className="hidden lg:block shape-blob-green-container mix-blend-multiply filter rounded-full blur-[120px] divide-opacity-50">
                 <div role="presentation" className={cn("shape-blob-green")} />
               </div>
               <About />
