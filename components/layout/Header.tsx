@@ -40,12 +40,12 @@ export default function Header() {
               <span className="text-xl font-bold text-gray-900">InvestWadi</span>
             </Link>
           </div>
-          <nav className={cn("hidden md:flex space-x-8", isRTL && "space-x-reverse")}>
+          <nav className={cn("hidden md:flex lg:gap-x-2", isRTL && "space-x-reverse")}>
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm whitespace-nowrap font-medium transition-colors"
               >
                 {t(item.name)}
               </Link>
