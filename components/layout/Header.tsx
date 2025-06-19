@@ -78,8 +78,8 @@ export default function Header() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
+          <div className="md:hidden relative z-[70]">
+            <div className="px-2 z-[70] absolute mx-auto bg-white backdrop-blur-md w-full pt-2 pb-3 space-y-1 sm:px-3 border-t">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
