@@ -74,7 +74,7 @@ export default function Hero() {
               alt="revenue"
               width={222}
               height={256}
-              className={cn("absolute top-[15rem] rounded-2xl right-[23rem] z-40 drop-shadow-lg")}
+              className={cn("absolute top-[15rem] rounded-2xl right-[23rem] z-50 drop-shadow-lg")}
               loading="eager"
               priority
             />

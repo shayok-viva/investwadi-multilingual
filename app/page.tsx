@@ -27,13 +27,13 @@ export default function Home() {
                 className="object-cover w-full h-auto"
               />
             </div>
-            <div className="absolute top-44 right-0 z-50"
+            <div className="absolute top-44 right-1 z-30"
             >
               <img
 
                 src="/images/hero-line-right.svg"
                 alt="line"
-                className="object-cover w-full h-auto"
+                className="object-contain w-full h-auto"
               />
             </div>
           </div>
