@@ -7,9 +7,9 @@ import { useLanguage } from "@/contexts/LanguageContext"
 import { cn } from "@/lib/utils"
 export default function Hero() {
   const { isRTL, t } = useLanguage()
-  // bg-gradient-to-tr from-[#DAC000]/5 to-[#DAC000]/5
+  //  bg-gradient-to-br from-[#FFF9F3] to-[#FFF9F3]
   return (
-    <section className="relative bg-gradient-to-br from-[#FFF9F3] to-[#FFF9F3] pb-12">
+    <section className="relative  overflow-hidden py-16 lg:py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className={cn("flex flex-1 flex-col lg:flex-row justify-between items-center", isRTL && "lg:flex-row-reverse")}>
           {/* Content */}
@@ -56,47 +56,37 @@ export default function Hero() {
 
           {/* Hero Image */}
           <div className={cn("relative", isRTL && "lg:order-first")}>
-            <div className="relative z-10 mt-8">
+            <div className="relative z-30 mt-8">
               <Image
                 src="/images/hero-image.png"
                 alt="hero"
-                width={550}
+                width={500}
                 height={610}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl object-contain"
                 priority
               />
             </div>
 
             {/* Floating Stats Card */}
-            {/* <div className={cn("absolute top-4 h-fit w-fit bg-white rounded-lg z-20", isRTL ? "left-4" : "right-4")}> */}
-            {/* <TrendingUp className="w-5 h-5 text-green-600" />
-                <div className={cn(isRTL ? "text-right" : "text-left")}>
-                  <div className="text-sm font-semibold">$2.4M</div>
-                  <div className="text-xs text-gray-500" suppressHydrationWarning>
-                    {isRTL ? "إجمالي الاستثمار" : "Total Invested"}
-                  </div>
-                </div> */}
-            <div role="presentation" className="shape-blob border-2 border-blue-950 absolute " />
-            <img src="/icons/half-loading.svg" alt="visual" className="absolute top-0 -left-6 z-20 mb-2" />
+            <img src="/icons/half-loading.svg" alt="visual" className="absolute top-0 -left-6 z-30 mb-2" />
             <Image
               src="/images/hero-revenue.png"
               alt="revenue"
               width={222}
               height={256}
-              className={cn("absolute bottom-4 rounded-2xl right-[28rem] z-20 drop-shadow-lg")}
+              className={cn("absolute top-[15rem] rounded-2xl right-[23rem] z-40 drop-shadow-lg")}
               loading="eager"
               priority
             />
             <Image
               src="/images/hero-trend.png"
               alt="revenue"
-              className={cn("absolute -bottom-3 -right-3 rounded-2xl z-20 drop-shadow-lg")}
+              className={cn("absolute -bottom-3 -right-3 rounded-2xl z-30 drop-shadow-lg")}
               loading="eager"
               width={260}
               height={182}
+              priority
             />
-            {/* </div> */}
-
             {/* Background Decorations */}
             {/* <div
               className={cn(
@@ -110,9 +100,18 @@ export default function Hero() {
                 isRTL ? "-left-4" : "-right-4",
               )}
             ></div> */}
+            
           </div>
         </div>
       </div>
+
+      {/* <div className="absolute top-0 left-0 z-20"
+        style={{backgroundImage: "url(./images/hero-line-left.svg)", backgroundSize: "contain", backgroundRepeat:"no-repeat", width: "100%", height: "100%"}}   
+      >
+      </div> */}
+      {/* <div className="absolute z-50 -top-40 -left-15 ">
+        <img src="./images/hero-line-left.svg" alt="line" className="object-cover" />
+      </div> */}
     </section>
   )
 }

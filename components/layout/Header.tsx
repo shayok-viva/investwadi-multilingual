@@ -29,7 +29,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-gradient-to-br from-[#FFF9F3] to-[#FFF9F3]  sticky top-0 z-50">
+    <header className="bg-gradient-to-tr from-[#FFF9F3] to-[#FFF9F3] sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={cn("flex justify-between items-center h-16", isRTL && "flex-row-reverse")}>
           <div className="flex items-center">
@@ -40,7 +40,6 @@ export default function Header() {
               <span className="text-xl font-bold text-gray-900">InvestWadi</span>
             </Link>
           </div>
-
           <nav className={cn("hidden md:flex space-x-8", isRTL && "space-x-reverse")}>
             {navigation.map((item) => (
               <Link
