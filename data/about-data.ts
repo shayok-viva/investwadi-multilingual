@@ -5,15 +5,14 @@ export const features = [
       icon: Users,
       title: "globalEntrepreneurs",
       description: "globalEntrepreneursDesc",
+      titleColor: "#066b31",
+      backgroundColor: "#e6f0ea",
     },
     {
       icon: Target,
       title: "smartInvesting",
       description: "smartInvestingDesc",
-    },
-    {
-      icon: TrendingUp,
-      title: "trackPerformance",
-      description: "trackPerformanceDesc",
+      titleColor: "#c6af00",
+      backgroundColor: "#fbf9e6",
     },
   ]

@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className={cn("flex flex-1 flex-col lg:flex-row justify-between items-center", isRTL && "lg:flex-row-reverse")}>
           {/* Content */}
-          <div className={cn("space-y-8", isRTL ? "lg:col-start-1 text-right" : "text-left")}>
+          <div className={cn("z-30 space-y-8", isRTL ? "lg:col-start-1 text-right" : "text-left")}>
             <div className="space-y-4 relative">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 {isRTL ? (

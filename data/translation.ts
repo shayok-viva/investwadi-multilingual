@@ -23,14 +23,10 @@ export const translations = {
     aboutUs: "من نحن",
     aboutDescription1:
       "إنفست وادي هي منصة استثمارية شاملة تسد الفجوة بين رواد الأعمال العالميين والمستثمرين المحليين. نحن نوفر سوقاً آمناً وشفافاً وفعالاً للفرص الاستثمارية عبر مختلف القطاعات والمناطق.",
-    aboutDescription2:
-      "تقدم منصتنا العناية الواجبة الشاملة والتتبع في الوقت الفعلي والدعم المهني لضمان شراكات استثمارية ناجحة.",
     globalEntrepreneurs: "رواد الأعمال العالميين",
     globalEntrepreneursDesc: "تواصل مع رواد الأعمال المبتكرين من جميع أنحاء العالم الذين يبحثون عن فرص استثمارية.",
     smartInvesting: "الاستثمار الذكي",
     smartInvestingDesc: "اتخذ قرارات استثمارية مدروسة مع منصة العناية الواجبة والتحليلات الشاملة لدينا.",
-    trackPerformance: "تتبع الأداء",
-    trackPerformanceDesc: "راقب استثماراتك في الوقت الفعلي مع تتبع الأداء التفصيلي وإعداد التقارير.",
 
     // How it works
     howItWorksTitle: "كيف يعمل",
@@ -150,17 +146,14 @@ export const translations = {
     // About
     aboutUs: "About Us",
     aboutDescription1:
-      "InvestWadi is a comprehensive investment platform that bridges the gap between global entrepreneurs and local investors. We provide a secure, transparent, and efficient marketplace for investment opportunities across various sectors and regions.",
-    aboutDescription2:
-      "Our platform offers comprehensive due diligence, real-time tracking, and professional support to ensure successful investment partnerships.",
-    globalEntrepreneurs: "Global entrepreneurs",
+      "InvestWadi is an emerging digital platform with a bold vision: to become the premier gateway connecting global entrepreneurs with Saudi investors. Our mission is to foster cross-border innovation, accelerate investment activity in Saudi Arabia, and enable strategic collaborations aligned with national development goals. The platform will serve two primary user groups:",
+    globalEntrepreneurs: "Global Entrepreneurs",
     globalEntrepreneursDesc:
-      "Connect with innovative entrepreneurs from around the world looking for investment opportunities.",
+      "seeking funding, strategic partners, or market entry into Saudi Arabia.",
     smartInvesting: "Smart Investing",
     smartInvestingDesc:
-      "Make informed investment decisions with our comprehensive due diligence and analytics platform.",
-    trackPerformance: "Track Performance",
-    trackPerformanceDesc: "Monitor your investments in real-time with detailed performance tracking and reporting.",
+      "looking for high-potential, pre-screened investment opportunities across diverse sectors.",
+
 
     // How it works
     howItWorksTitle: "How it works",
@@ -230,15 +223,15 @@ export const translations = {
     qWhatIsInvestWadi: "What is InvestWadi?",
     aInvestWadi:
       "InvestWadi is an investment platform that connects global entrepreneurs with local investors. We provide a secure, transparent marketplace for investment opportunities across various sectors and regions.",
-    qHowDoesItWork: "How does InvestWadi work?",    
+    qHowDoesItWork: "How does InvestWadi work?",
     aHowItWorks:
       "InvestWadi facilitates the investment process by providing a platform for registration, project submission, secure communication, and deal closure. We offer comprehensive due diligence and professional support to ensure successful investment partnerships.",
     qWhoCanInvest: "Who can invest via InvestWadi?",
     aWhoCanInvest:
-             "Our platform is open to accredited investors, angel investors, venture capitalists, and institutional investors who meet our verification requirements. We welcome both individual and corporate investors.",
+      "Our platform is open to accredited investors, angel investors, venture capitalists, and institutional investors who meet our verification requirements. We welcome both individual and corporate investors.",
     qWhatAreInvestementOpprtunities: "What types of investment opportunities are available?",
     aWhatAreInvestementOpprtunities:
-      "We offer various investment tracks including early-stage startups (WadiSeed), growth-stage companies (WadiScale), and established enterprises (WadiVault). Opportunities span across technology, healthcare, real estate, and other sectors.",  
+      "We offer various investment tracks including early-stage startups (WadiSeed), growth-stage companies (WadiScale), and established enterprises (WadiVault). Opportunities span across technology, healthcare, real estate, and other sectors.",
     qAreInvestmentsGuaranteed: "Are the investments guaranteed?",
     aAreInvestmentsGuaranteed:
       "No investment is guaranteed. All investments carry risk, and past performance does not guarantee future results. We provide comprehensive due diligence and risk assessment tools to help investors make informed decisions.",

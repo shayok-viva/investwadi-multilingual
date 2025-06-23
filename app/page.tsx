@@ -30,7 +30,7 @@ export default function Home() {
             <div className="hidden lg:block absolute top-44 right-1 z-30"
             >
               <img
-
+                
                 src="/images/hero-line-right.svg"
                 alt="line"
                 className="object-contain w-full h-auto"
@@ -40,10 +40,10 @@ export default function Home() {
           <main className="relative overflow-hidden">
             <div className="bg-gradient-to-tr from-[#FFF9F3] to-[#FFF9F3]">
               <Hero />
-              <div className="shape-blob-yellow-container mix-blend-multiply filter rounded-full blur-[100px]">
+              <div className="shape-blob-yellow-container rounded-full blur-[200px] z-10">
                 <div role="presentation" className={cn("shape-blob-yellow")} />
               </div>
-              <div className="hidden lg:block shape-blob-green-container mix-blend-multiply filter rounded-full blur-[120px] divide-opacity-50">
+              <div className="hidden lg:block shape-blob-green-container blur-[180px] z-10 rounded-full">
                 <div role="presentation" className={cn("shape-blob-green")} />
               </div>
               <About />
