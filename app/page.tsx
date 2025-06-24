@@ -30,7 +30,7 @@ export default function Home() {
             <div className="hidden lg:block absolute top-44 right-1 z-30"
             >
               <img
-                
+
                 src="/images/hero-line-right.svg"
                 alt="line"
                 className="object-contain w-full h-auto"
@@ -46,10 +46,44 @@ export default function Home() {
               <div className="hidden lg:block shape-blob-green-container blur-[180px] z-10 rounded-full">
                 <div role="presentation" className={cn("shape-blob-green")} />
               </div>
-              <About />
             </div>
-            <HowItWorks />
-            <TrackOverview />
+            <About />
+            <div className="relative overflow-x-hidden !z-20">
+              <HowItWorks />
+              <div className="hidden lg:block absolute top-[34rem] left-0 z-20"
+            >
+              <img
+                src="/images/left-line-hiw.svg"
+                alt="line"
+                className="object-cover w-full h-auto"
+              />
+            </div>
+                <div className="hidden lg:block absolute top-20 right-0 z-20"
+            >
+              <img
+                src="/images/right-line-hiw.svg"
+                alt="line"
+                className="object-cover w-full h-auto"
+              />
+            </div>
+            {/* <div className="hidden lg:block absolute top-44 right-1 z-30"
+            >
+              <img
+
+                src="/images/left-line-hiw.svg"
+                alt="line"
+                className="object-contain w-full h-auto"
+              />
+            </div> */}
+              <div className="hidden lg:block shape-blob-green-container-hiw  z-10 rounded-full">
+                <div role="presentation" className={cn("shape-blob-green-hiw")} />
+              </div>
+                <div className="shape-blob-yellow-container-hiw rounded-full z-10 ">
+                <div role="presentation" className={cn("shape-blob-yellow-hiw")} />
+              </div>
+              <TrackOverview />
+
+            </div>
             <Testimonials />
             <Blog />
             <FAQ />
