@@ -10,7 +10,28 @@ const cairo = Cairo({ subsets: ["arabic"], variable: "--font-cairo" })
 export const metadata: Metadata = {
   title: "InvestWadi - ربط رواد الأعمال العالميين بالمستثمرين المحليين",
   description: "منصة استثمارية شاملة تربط رواد الأعمال العالميين بالمستثمرين المحليين",
-  generator: 'v0.dev'
+  generator: 'vivasoft',
+  applicationName: "InvestWadi",
+  keywords: [
+    "investwadi",
+    "استثمار"],
+  authors: [{ name: "vivasoft" }],
+  creator: "vivasoft",
+  publisher: "vivasoft",
+  openGraph: { 
+    title: "InvestWadi - ربط رواد الأعمال العالميين بالمستثمرين المحليين",
+    description: "منصة استثمارية شاملة تربط رواد الأعمال العالميين بالمستثمرين المحليين",
+    url: "https://investwadi.com",
+    siteName: "InvestWadi",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "InvestWadi Open Graph Image",
+      },
+    ],
+  }
 }
 
 export default function RootLayout({
