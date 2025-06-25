@@ -31,6 +31,15 @@ export const metadata: Metadata = {
         alt: "InvestWadi Open Graph Image",
       },
     ],
+  },
+  facebook:{
+    appId: "123456789",
+  },
+  twitter:{
+    card: "summary_large_image",
+    title: "InvestWadi - ربط رواد الأعمال العالميين بالمستثمرين المحليين",
+    description: "منصة استثمارية شاملة تربط رواد الأعمال العالميين بالمستثمرين المحليين",
+    images: ["/images/about-section.png"],
   }
 }
 
