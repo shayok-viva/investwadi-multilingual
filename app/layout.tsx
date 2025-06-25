@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     description: "منصة استثمارية شاملة تربط رواد الأعمال العالميين بالمستثمرين المحليين",
     url: "https://investwadi.com",
     siteName: "InvestWadi",
-    images: [
-      {
-        url: "/images/hero-image.png",
-        width: 1200,
-        height: 630,
-        alt: "InvestWadi Open Graph Image",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "/images/hero-image.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "InvestWadi Open Graph Image",
+    //   },
+    // ],
   },
   facebook:{
     appId: "123456789",
