@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "InvestWadi",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/hero-image.png",
         width: 1200,
         height: 630,
         alt: "InvestWadi Open Graph Image",
